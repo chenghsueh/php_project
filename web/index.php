@@ -29,118 +29,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <?php include 'header.php'; ?>
 <!-- Modal1 -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-						<div class="modal-body modal-body-sub_agile">
-						<div class="col-md-8 modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign In <span>Now</span></h3>
-									<form action="#" method="post">
-							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
-								<label>Name</label>
-								<span></span>
-							</div>
-							<div class="styled-input">
-								<input type="email" name="Email" required="">
-								<label>Email</label>
-								<span></span>
-							</div>
-							<input type="submit" value="Sign In">
-						</form>
-						  <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
-															<li><a href="#" class="facebook">
-																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="twitter">
-																  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="instagram">
-																  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="pinterest">
-																  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
-														</ul>
-														<div class="clearfix"></div>
-														<p><a href="#" data-toggle="modal" data-target="#myModal2" > Don't have an account?</a></p>
 
-						</div>
-						<div class="col-md-4 modal_body_right modal_body_right1">
-							<img src="images/log_pic.jpg" alt=" "/>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<!-- //Modal content-->
-			</div>
-		</div>
 <!-- //Modal1 -->
+<?php
+ include "Modal1.php"
+?>
 <!-- Modal2 -->
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-						<div class="modal-body modal-body-sub_agile">
-						<div class="col-md-8 modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign Up <span>Now</span></h3>
-						 <form action="#" method="post">
-							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
-								<label>Name</label>
-								<span></span>
-							</div>
-							<div class="styled-input">
-								<input type="email" name="Email" required="">
-								<label>Email</label>
-								<span></span>
-							</div>
-							<div class="styled-input">
-								<input type="password" name="password" required="">
-								<label>Password</label>
-								<span></span>
-							</div>
-							<div class="styled-input">
-								<input type="password" name="Confirm Password" required="">
-								<label>Confirm Password</label>
-								<span></span>
-							</div>
-							<input type="submit" value="Sign Up">
-						</form>
-						  <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
-															<li><a href="#" class="facebook">
-																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="twitter">
-																  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="instagram">
-																  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="pinterest">
-																  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
-														</ul>
-														<div class="clearfix"></div>
-														<p><a href="#">By clicking register, I agree to your terms</a></p>
+		
+<?php
+ include "Modal2.php"
+?>
 
-						</div>
-						<div class="col-md-4 modal_body_right modal_body_right1">
-							<img src="images/log_pic.jpg" alt=" "/>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<!-- //Modal content-->
-			</div>
-		</div>
+
+
 <!-- //Modal2 -->
 
 <!-- banner -->
@@ -157,45 +58,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="item active">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>The Biggest <span>Sale</span></h3>
-						<p>Special for today</p>
-						<a class="hvr-outline-out button2" href="mens.php">Shop Now </a>
+						<h3>&nbsp;<span>&nbsp;</span>&nbsp;</h3>
+						<p>&nbsp;</p>
+						<a class="hvr-outline-out button2" href="mens.php">去購物</a>
 					</div>
 				</div>
 			</div>
 			<div class="item item2">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Summer <span>Collection</span></h3>
-						<p>New Arrivals On Sale</p>
-						<a class="hvr-outline-out button2" href="mens.php">Shop Now </a>
+						<h3> &nbsp;<span>&nbsp;</span>&nbsp;</h3>
+						<p>&nbsp;</p>
+						<a class="hvr-outline-out button2" href="mens.php">去購物 </a>
 					</div>
 				</div>
 			</div>
 			<div class="item item3">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>The Biggest <span>Sale</span></h3>
-						<p>Special for today</p>
-						<a class="hvr-outline-out button2" href="mens.php">Shop Now </a>
+						<h3>&nbsp; <span>&nbsp;</span>&nbsp;</h3>
+						<p>&nbsp;</p>
+						<a class="hvr-outline-out button2" href="mens.php">去購物</a>
 					</div>
 				</div>
 			</div>
 			<div class="item item4">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Summer <span>Collection</span></h3>
-						<p>New Arrivals On Sale</p>
-						<a class="hvr-outline-out button2" href="mens.php">Shop Now </a>
+						<h3>&nbsp; <span>&nbsp;</span></h3>
+						<p>&nbsp;</p>
+						<a class="hvr-outline-out button2" href="mens.php">去購物 </a>
 					</div>
 				</div>
 			</div>
 			<div class="item item5">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>The Biggest <span>Sale</span></h3>
-						<p>Special for today</p>
-						<a class="hvr-outline-out button2" href="mens.php">Shop Now </a>
+						<h3>&nbsp; <span>&nbsp;</span></h3>
+						<p>&nbsp;</p>
+						<a class="hvr-outline-out button2" href="mens.php">去購物</a>
 					</div>
 				</div>
 			</div>
@@ -218,8 +119,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<figure class="effect-roxy">
 							<img src="images/bottom1.jpg" alt=" " class="img-responsive" />
 							<figcaption>
-								<h3><span>F</span>all Ahead</h3>
-								<p>New Arrivals</p>
+								<h3><span>新</span>品上市</h3>
 							</figcaption>
 						</figure>
 					</div>
@@ -227,8 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<figure class="effect-roxy">
 							<img src="images/bottom2.jpg" alt=" " class="img-responsive" />
 							<figcaption>
-								<h3><span>F</span>all Ahead</h3>
-								<p>New Arrivals</p>
+								<h3><span>熱</span>銷商品</h3>
 							</figcaption>
 						</figure>
 					</div>
@@ -237,7 +136,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
     </div>
 	<!-- schedule-bottom -->
-	<div class="schedule-bottom">
+	<!--<div class="schedule-bottom">
 		<div class="col-md-6 agileinfo_schedule_bottom_left">
 			<img src="images/mid.jpg" alt=" " class="img-responsive" />
 		</div>
@@ -265,10 +164,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div class="clearfix"> </div>
-	</div>
+	</div>-->
 <!-- //schedule-bottom -->
   <!-- banner-bootom-w3-agileits -->
-	<div class="banner-bootom-w3-agileits">
+	<!--<div class="banner-bootom-w3-agileits">
 	<div class="container">
 		<h3 class="wthree_text_info">What's <span>Trending</span></h3>
 
@@ -311,15 +210,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"></div>
 	</div>
 	</div>
-    </div>
+    </div>-->
 <!--/grids-->
       <div class="agile_last_double_sectionw3ls">
             <div class="col-md-6 multi-gd-img multi-gd-text ">
-					<a href="womens.php"><img src="images/bot_1.jpg" alt=" "><h4>Flat <span>50%</span> offer</h4></a>
+					<a href="womens.php"><img src="images/bot_1.jpg" alt=" "><h4> <span>限時</span> 特價</h4></a>
 
 			</div>
 			 <div class="col-md-6 multi-gd-img multi-gd-text ">
-					<a href="womens.php"><img src="images/bot_2.jpg" alt=" "><h4>Flat <span>50%</span> offer</h4></a>
+					<a href="womens.php"><img src="images/bot_2.jpg" alt=" "><h4>限定商品 <span>免</span> 運費</h4></a>
 			</div>
 			<div class="clearfix"></div>
 	   </div>
@@ -327,13 +226,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- /new_arrivals -->
 	<div class="new_arrivals_agile_w3ls_info">
 		<div class="container">
-		    <h3 class="wthree_text_info">New <span>Arrivals</span></h3>
+		    <h3 class="wthree_text_info">新品<span>上市</span></h3>
 				<div id="horizontalTab">
 						<ul class="resp-tabs-list">
-							<li> Men's</li>
-							<li> Women's</li>
-							<li> Bags</li>
-							<li> Footwear</li>
+							<li> 流行衣物</li>
+							<li> 彩妝</li>
+							<li> 配件</li>
+							<li> 飾品</li>
 						</ul>
 					<div class="resp-tabs-container">
 					<!--/tab_one-->
@@ -345,17 +244,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m1.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Formal Blue Shirt</a></h4>
+										<h4><a href="single.php">藍色襯衫</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$45.99</span>
-											<del>$69.71</del>
+											<span class="item_price">$45</span>
+											<del>$69</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -369,7 +268,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -384,17 +283,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m2.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Gabi Full Sleeve Sweatshirt</a></h4>
+										<h4><a href="single.php">灰色帽T</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$45.99</span>
-											<del>$69.71</del>
+											<span class="item_price">$45</span>
+											<del>$69</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -408,7 +307,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -423,17 +322,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m3.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Dark Blue Track Pants</a></h4>
+										<h4><a href="single.php">黑色長褲</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$80.99</span>
-											<del>$89.71</del>
+											<span class="item_price">$80</span>
+											<del>$89</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -447,7 +346,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -462,17 +361,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m4.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Round Neck Black T-Shirt</a></h4>
+										<h4><a href="single.php">黑色T恤</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$190.99</span>
-											<del>$159.71</del>
+											<span class="item_price">$190</span>
+											<del>$159</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -486,7 +385,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -501,17 +400,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m5.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Men's Black Jeans</a></h4>
+										<h4><a href="single.php">黑色牛仔褲</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$60.99</span>
-											<del>$90.71</del>
+											<span class="item_price">$60</span>
+											<del>$90</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -525,7 +424,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -540,17 +439,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m7.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Analog Watch</a></h4>
+										<h4><a href="single.php">手錶</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$160.99</span>
-											<del>$290.71</del>
+											<span class="item_price">$160</span>
+											<del>$290</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -564,7 +463,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -579,17 +478,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m6.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Reversible Belt</a></h4>
+										<h4><a href="single.php">腰帶</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$30.99</span>
-											<del>$50.71</del>
+											<span class="item_price">$30</span>
+											<del>$50</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -603,7 +502,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -618,17 +517,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/m8.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Party Men's Blazer</a></h4>
+										<h4><a href="single.php">外套</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$260.99</span>
-											<del>$390.71</del>
+											<span class="item_price">$260</span>
+											<del>$390</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -642,7 +541,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -662,17 +561,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w1.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">A-line Black Skirt</a></h4>
+										<h4><a href="single.php">格子裙</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$130.99</span>
-											<del>$189.71</del>
+											<span class="item_price">$130</span>
+											<del>$189</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -686,7 +585,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -701,17 +600,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w2.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Sleeveless Solid Blue Top</a></h4>
+										<h4><a href="single.php">藍色無袖上衣</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$140.99</span>
-											<del>$189.71</del>
+											<span class="item_price">$140</span>
+											<del>$189</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -725,7 +624,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -740,17 +639,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w3.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Skinny Jeans</a></h4>
+										<h4><a href="single.php">緊身褲</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$150.99</span>
-											<del>$189.71</del>
+											<span class="item_price">$150</span>
+											<del>$189</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -764,7 +663,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -779,17 +678,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w4.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Black Basic Shorts</a></h4>
+										<h4><a href="single.php">黑色點點短褲</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$120.99</span>
-											<del>$189.71</del>
+											<span class="item_price">$120</span>
+											<del>$189</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -803,7 +702,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -818,17 +717,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w5.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Pink Track Pants</a></h4>
+										<h4><a href="single.php">粉色長褲</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$220.99</span>
-											<del>$389.71</del>
+											<span class="item_price">$220</span>
+											<del>$389</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -842,7 +741,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -857,17 +756,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w6.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Analog Watch</a></h4>
+										<h4><a href="single.php">手錶</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$320.99</span>
-											<del>$489.71</del>
+											<span class="item_price">$320</span>
+											<del>$489</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -881,7 +780,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -896,17 +795,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w7.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Ankle Length Socks</a></h4>
+										<h4><a href="single.php">長襪</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$100.99</span>
-											<del>$159.71</del>
+											<span class="item_price">$100</span>
+											<del>$159</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -920,7 +819,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -935,17 +834,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/w8.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Reebok Women's Tights</a></h4>
+										<h4><a href="single.php">內搭褲</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$130.99</span>
-											<del>$169.71</del>
+											<span class="item_price">$130</span>
+											<del>$169</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -959,7 +858,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -979,17 +878,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b1.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Laptop Messenger Bag</a></h4>
+										<h4><a href="single.php">公事包</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$140.99</span>
-											<del>$169.71</del>
+											<span class="item_price">$140</span>
+											<del>$169</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1003,7 +902,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1018,17 +917,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b2.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Puma Backpack</a></h4>
+										<h4><a href="single.php">Puma 後背包</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$127.99</span>
-											<del>$169.71</del>
+											<span class="item_price">$127</span>
+											<del>$169</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1042,7 +941,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1057,17 +956,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b3.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php"> Laptop Backpack</a></h4>
+										<h4><a href="single.php"> 紅色後背包</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$120.99</span>
-											<del>$189.71</del>
+											<span class="item_price">$120</span>
+											<del>$189</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1081,7 +980,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1096,17 +995,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b4.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Travel Duffel Bag </a></h4>
+										<h4><a href="single.php">旅行包</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$190.99</span>
-											<del>$259.71</del>
+											<span class="item_price">$190</span>
+											<del>$259</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1120,7 +1019,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1135,17 +1034,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b5.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php"> Hand-held Bag </a></h4>
+										<h4><a href="single.php"> 手提包 </a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$190.99</span>
-											<del>$259.71</del>
+											<span class="item_price">$190</span>
+											<del>$259</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1159,7 +1058,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1174,17 +1073,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b6.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Butterflies Bag </a></h4>
+										<h4><a href="single.php">藍色手提包 </a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$190.99</span>
-											<del>$259.71</del>
+											<span class="item_price">$190</span>
+											<del>$259</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1198,7 +1097,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1213,17 +1112,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b7.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Costa Swiss Bag </a></h4>
+										<h4><a href="single.php">粉色手提包 </a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$290.99</span>
-											<del>$359.71</del>
+											<span class="item_price">$290</span>
+											<del>$359</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1237,7 +1136,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1252,17 +1151,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/b8.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Noble Designs Bag </a></h4>
+										<h4><a href="single.php">藍色手提包</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$120.99</span>
-											<del>$159.71</del>
+											<span class="item_price">$120</span>
+											<del>$159</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1276,7 +1175,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1295,17 +1194,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s1.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Running Shoes</a></h4>
+										<h4><a href="single.php">皮鞋</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$80.99</span>
-											<del>$89.71</del>
+											<span class="item_price">$80</span>
+											<del>$89</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1319,7 +1218,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1334,17 +1233,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s2.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Shoetopia Lace Up</a></h4>
+										<h4><a href="single.php">跑步鞋Up</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$90.99</span>
-											<del>$59.71</del>
+											<span class="item_price">$90</span>
+											<del>$59</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1358,7 +1257,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1373,17 +1272,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s3.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Steemo Casuals(Black)</a></h4>
+										<h4><a href="single.php">慢跑鞋</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$90.99</span>
-											<del>$59.71</del>
+											<span class="item_price">$90</span>
+											<del>$59</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1397,7 +1296,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1412,17 +1311,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s4.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Benetton Flip Flops</a></h4>
+										<h4><a href="single.php">夾腳拖</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$40.99</span>
-											<del>$99.71</del>
+											<span class="item_price">$40.</span>
+											<del>$99</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1436,7 +1335,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1451,17 +1350,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s5.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Moonwalk Bellies </a></h4>
+										<h4><a href="single.php">包包鞋 </a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$80.99</span>
-											<del>$99.71</del>
+											<span class="item_price">$80</span>
+											<del>$99</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1475,7 +1374,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1490,17 +1389,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s6.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Aero Canvas Loafers  </a></h4>
+										<h4><a href="single.php">休閒鞋 </a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$120.99</span>
-											<del>$199.71</del>
+											<span class="item_price">$120</span>
+											<del>$199</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1514,7 +1413,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1529,17 +1428,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s7.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Sparx Sporty Canvas Shoes</a></h4>
+										<h4><a href="single.php">慢跑鞋</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$160.99</span>
-											<del>$199.71</del>
+											<span class="item_price">$160</span>
+											<del>$199</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1553,7 +1452,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1568,17 +1467,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<img src="images/s8.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.php" class="link-product-add-cart">Quick View</a>
+													<a href="single.php" class="link-product-add-cart">點進看此商品</a>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
 
 									</div>
 									<div class="item-info-product ">
-										<h4><a href="single.php">Women BLACK Heels</a></h4>
+										<h4><a href="single.php">高跟鞋</a></h4>
 										<div class="info-product-price">
-											<span class="item_price">$180.99</span>
-											<del>$199.71</del>
+											<span class="item_price">$180</span>
+											<del>$199</del>
 										</div>
 										<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
 															<form action="#" method="post">
@@ -1592,7 +1491,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="currency_code" value="USD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
-																	<input type="submit" name="submit" value="Add to cart" class="button" />
+																	<input type="submit" name="submit" value="放進購物車" class="button" />
 																</fieldset>
 															</form>
 														</div>
@@ -1608,13 +1507,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	<!-- //new_arrivals -->
 	<!-- /we-offer -->
-		<div class="sale-w3ls">
+	<!--	<div class="sale-w3ls">
 			<div class="container">
 				<h6>We Offer Flat <span>40%</span> Discount</h6>
 
 				<a class="hvr-outline-out button2" href="single.php">Shop Now </a>
 			</div>
-		</div>
+		</div>-->
 	<!-- //we-offer -->
 
 <?php include 'footer.php'?>
