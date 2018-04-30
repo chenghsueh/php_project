@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Elite Shoppy an Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | women's :: w3layouts</title>
+<title>黑皮商城</title>
 <!--/tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -26,7 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <!-- header -->
-<div class="header" id="home">
+<!--<div class="header" id="home">
 	<div class="container">
 		<ul>
 		    <li> <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign In </a></li>
@@ -35,17 +35,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">info@example.com</a></li>
 		</ul>
 	</div>
-</div>
+</div>-->
 <!-- //header -->
 <!-- header -->
 <?php
 		include "header.php";
+		include "Modal1.php";
+		include "Modal2.php";
 ?>
 <!-- //header-->
 <!-- Modal1 -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+		<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
 			<div class="modal-dialog">
-				<!-- Modal content-->
+				
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -90,14 +92,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<!-- //Modal content-->
+				
 			</div>
-		</div>
+		</div>-->
 <!-- //Modal1 -->
 <!-- Modal2 -->
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<!--<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
 			<div class="modal-dialog">
-				<!-- Modal content-->
+				
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -152,21 +154,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<!-- //Modal content-->
+				
 			</div>
-		</div>
+		</div>-->
 <!-- //Modal2 -->
 <!-- /banner_bottom_agile_info -->
 <div class="page-head_agile_info_w3l">
 		<div class="container">
-			<h3>Women's <span>Wear  </span></h3>
+			<h3>彩<span>妝</span></h3>
 			<!--/w3_short-->
 				 <div class="services-breadcrumb">
 						<div class="agile_inner_breadcrumb">
 
 						   <ul class="w3_short">
-								<li><a href="index.php">Home</a><i>|</i></li>
-								<li>Women's Wear</li>
+								<li><a href="index.php">首頁</a><i>|</i></li>
+								<li>彩妝</li>
 							</ul>
 						 </div>
 				</div>
@@ -180,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          <!-- mens -->
 		<div class="col-md-4 products-left">
 			<div class="filter-price">
-				<h3>Filter By <span>Price</span></h3>
+				<h3>價錢<span>範圍</span></h3>
 					<ul class="dropdown-menu6">
 						<li>
 							<div id="slider-range"></div>
@@ -786,7 +788,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //mens -->
 <!--/grids-->
-<div class="coupons">
+<!--<div class="coupons">
 		<div class="coupons-grids text-center">
 			<div class="w3layouts_mail_grid">
 				<div class="col-md-3 w3layouts_mail_grid_left">
@@ -829,7 +831,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 
 		</div>
-</div>
+</div>-->
 <!--grids-->
 <!-- footer -->
 <?php

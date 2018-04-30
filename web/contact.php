@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Elite Shoppy an Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Contact :: w3layouts</title>
+<title>黑皮商城</title>
 <!--/tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -25,7 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <!-- header -->
-<div class="header" id="home">
+<!--<div class="header" id="home">
 	<div class="container">
 		<ul>
 		    <li> <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign In </a></li>
@@ -34,17 +34,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">info@example.com</a></li>
 		</ul>
 	</div>
-</div>
+</div>-->
 <!-- //header -->
 <!-- header -->
 <?php
 		include "header.php";
+		include "Modal1.php";
+		include "Modal2.php";
 ?>
 <!-- //header -->
 <!-- Modal1 -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+	<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
 			<div class="modal-dialog">
-				<!-- Modal content-->
+				
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -88,15 +90,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="clearfix"></div>
 					</div>
-				</div>
-				<!-- //Modal content-->
+
 			</div>
-		</div>
+		</div>-->
 <!-- //Modal1 -->
 <!-- Modal2 -->
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<!--<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
 			<div class="modal-dialog">
-				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -151,9 +151,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<!-- //Modal content-->
+			
 			</div>
-		</div>
+		</div>-->
 <!-- //Modal2 -->
 <!-- /banner_bottom_agile_info -->
 <div class="page-head_agile_info_w3l">
@@ -211,21 +211,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="mail-agileits-w3layouts">
 								<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
 								<div class="contact-right">
-									<p>電話</p><span>+1 (100)222-23-33</span>
+									<p>電話</p><span>+886 9XXXXXXXX</span>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
 							<div class="mail-agileits-w3layouts">
 								<i class="fa fa-envelope-o" aria-hidden="true"></i>
 								<div class="contact-right">
-									<p>電子郵件</p><a href="mailto:info@example.com">info@example.com</a>
+									<p>電子郵件</p><a href="mailto:info@example.com">mail@example.com</a>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
 							<div class="mail-agileits-w3layouts">
 								<i class="fa fa-map-marker" aria-hidden="true"></i>
 								<div class="contact-right">
-									<p>地址</p><span>7784 Diamonds street, California, US.</span>
+									<p>地址</p><span>彰化師範大學寶山校區</span>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -268,8 +268,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   </div>
  <!--//contact-->
 <!--/grids-->
-<div class="coupons">
-		<div class="coupons-grids text-center">
+<!--		<div class="coupons-grids text-center">
 			<div class="w3layouts_mail_grid">
 				<div class="col-md-3 w3layouts_mail_grid_left">
 					<div class="w3layouts_mail_grid_left1 hvr-radial-out">
@@ -311,7 +310,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 
 		</div>
-</div>
+</div>-->
 <!--grids-->
 <!-- footer -->
 <?php

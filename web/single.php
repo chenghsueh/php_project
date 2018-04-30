@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Elite Shoppy an Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Single :: w3layouts</title>
+<title>黑皮商城</title>
 <!--/tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -30,6 +30,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 <?php
 		include "header.php";
+		include "Modal2.php";
+		include "Modal1.php";
 ?>
 <!-- //header -->
 <!-- Modal1 -->
@@ -242,19 +244,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	<input type="hidden" name="cmd" value="_cart">
 																	<input type="hidden" name="add" value="1">
 																	<input type="hidden" name="business" value=" ">
-																	<input type="hidden" name="item_name" value="Wing Sneakers">
+																	<input type="hidden" name="item_name" value="V領蕾絲邊細坑條上衣">
 																	<input type="hidden" name="amount" value="650.00">
 																	<input type="hidden" name="discount_amount" value="1.00">
 																	<input type="hidden" name="currency_code" value="USD">
 																	<input type="hidden" name="return" value=" ">
 																	<input type="hidden" name="cancel_return" value=" ">
-																	<input type="submit" name="submit" value="Add to cart" class="button">
+																	<input type="submit" name="submit" value="放進購物車" class="button">
 																</fieldset>
 															</form>
 														</div>
 
 					</div>
-					<ul class="social-nav model-3d-0 footer-social w3_agile_social single_page_w3ls">
+					<!--<ul class="social-nav model-3d-0 footer-social w3_agile_social single_page_w3ls">
 						                                   <li class="share">Share On : </li>
 															<li><a href="#" class="facebook">
 																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
@@ -268,7 +270,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 															<li><a href="#" class="pinterest">
 																  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
 																  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
-														</ul>
+														</ul>-->
 
 		      </div>
 	 			<div class="clearfix"> </div>
@@ -324,14 +326,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 							 </div>
 						 </div>
-						   <div class="tab3">
+						   <!--<div class="tab3">
 
 							<div class="single_page_agile_its_w3ls">
 							  <h6>Big Wing Sneakers (Navy)</h6>
 							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget nisl ullamcorper, molestie blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. labore et dolore magna aliqua.</p>
 							   <p class="w3ls_para">Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget nisl ullamcorper, molestie blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. labore et dolore magna aliqua.</p>
 							</div>
-						</div>
+						</div>-->
 					</div>
 				</div>
 			</div>
@@ -503,7 +505,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  </div>
 <!--//single_page-->
 <!--/grids-->
-<div class="coupons">
+<!--<div class="coupons">
 		<div class="coupons-grids text-center">
 			<div class="w3layouts_mail_grid">
 				<div class="col-md-3 w3layouts_mail_grid_left">
@@ -546,7 +548,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 
 		</div>
-</div>
+</div>-->
 <!--grids-->
 <!-- footer -->
 <?php
